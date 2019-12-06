@@ -9,6 +9,20 @@
 </div>
 
 <div class="row">
+    <div class="col-md-12">
+        <h2>これは MultiLangApp だよ</h2>
+        <p>この部分を多言語対応にすることをゴールとする。それと下のボタンを押したときに出る文章も同じく。</p>
+        <button type="button" onclick="showText()">クリックしてテキストを表示する</button>
+        <p id="foo"></p>
+        <script>
+            var showText = function () {
+                $('#foo').text('押したな?')
+            }
+        </script>
+    </div>
+</div>
+
+<div class="row">
     <div class="col-md-4">
         <h2>Getting started</h2>
         <p>
