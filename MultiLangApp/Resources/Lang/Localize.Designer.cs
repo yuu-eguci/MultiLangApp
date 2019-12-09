@@ -95,5 +95,14 @@ namespace MultiLangApp.Resources.Lang {
                 return ResourceManager.GetString("String4", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 押したな?.
+        /// </summary>
+        public static string String5 {
+            get {
+                return ResourceManager.GetString("String5", resourceCulture);
+            }
+        }
     }
 }

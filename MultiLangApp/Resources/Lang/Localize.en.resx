@@ -129,4 +129,7 @@
   <data name="String4" xml:space="preserve">
     <value>MULTILANG APP</value>
   </data>
+  <data name="String5" xml:space="preserve">
+    <value>You pushed, huh?</value>
+  </data>
 </root>
