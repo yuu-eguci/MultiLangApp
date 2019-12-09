@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = MultiLangApp.Resources.Lang.Localize.String4;
 }
 
 <div class="jumbotron">
@@ -10,9 +10,15 @@
 
 <div class="row">
     <div class="col-md-12">
-        <h2>これは MultiLangApp だよ</h2>
-        <p>この部分を多言語対応にすることをゴールとする。それと下のボタンを押したときに出る文章も同じく。</p>
-        <button type="button" onclick="showText()">クリックしてテキストを表示する</button>
+        <h2>
+            @MultiLangApp.Resources.Lang.Localize.String1
+        </h2>
+        <p>
+            @MultiLangApp.Resources.Lang.Localize.String2
+        </p>
+        <button type="button" onclick="showText()">
+            @MultiLangApp.Resources.Lang.Localize.String3
+        </button>
         <p id="foo"></p>
         <script>
             var showText = function () {
