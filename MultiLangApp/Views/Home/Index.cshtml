@@ -16,6 +16,11 @@
         <p>
             @MultiLangApp.Resources.Lang.Localize.String2
         </p>
+        <p>
+            CurrentCulture: @System.Threading.Thread.CurrentThread.CurrentCulture
+            ,
+            CurrentUICulture: @System.Threading.Thread.CurrentThread.CurrentUICulture
+        </p>
         <button type="button" onclick="showText()">
             @MultiLangApp.Resources.Lang.Localize.String3
         </button>
