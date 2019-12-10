@@ -10,6 +10,8 @@ namespace MultiLangApp.Controllers
     {
         public ActionResult Index()
         {
+            // 手動で CurrentUICulture を切り替える場合の記述。
+            // System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-GB");
             return View();
         }
 
