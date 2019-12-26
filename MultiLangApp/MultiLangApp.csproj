@@ -146,6 +146,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Log4net.Debug.config" />
     <Content Include="Log4net.Release.config" />
+    <None Include="Properties\PublishProfiles\MultiLangApp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
