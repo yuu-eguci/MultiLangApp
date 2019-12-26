@@ -33,3 +33,13 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+// Setting file for log4net.
+// Without specifying ConfigFile manually, it refers Web.config.
+// Either uppercase and lowercase are accepted. (Log4net.config, log4net.config)
+// I don't know why but 'Log4net.config' must be written in either this AssemblyInfo.cs and Web.config. WHY?
+#if DEBUG
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "Log4net.Debug.config", Watch = true)]
+#else
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "Log4net.Release.config", Watch = true)]
+#endif
